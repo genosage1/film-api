@@ -2,24 +2,49 @@
   "spider": "",
   "sites": [
     {
-      "key": "myfilm",
-      "name": "我的影视",
+      "key": "bfzy",
+      "name": "暴风资源",
       "type": 1,
-      "api": "https://genosage1.github.io/film-api/static/aa.json",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": ""
+      "api": "https://bfzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "hhzy",
+      "name": "火花影视",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "jszy",
+      "name": "极速资源",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "suoni",
+      "name": "索尼资源",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     }
   ],
   "parses": [
     {
-      "name": "聚合",
-      "type": 0,
+      "name": "json",
+      "type": 1,
       "url": ""
     }
   ],
   "flags": [],
-  "wallpaper": "",
-  "aliases": []
+  "wallpaper": ""
 }
